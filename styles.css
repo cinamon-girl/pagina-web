@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+body{
+    min-height: 100%;
+    background-color: #1f2937;
+
+}
+.grid-container > * {
+    padding: 10px;
+    text-align: center;
+    border: none;
+
+}
+.header{
+    grid-area: header;
+    background-color: #1f2937;
+    border: none;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    
+
+}
+.logo{
+    margin-top: 2rem;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.logo:hover{
+    transform: scale(1.1); 
+    transition: 0.8s;
+
+}
+nav{
+    margin-top: 2rem;
+    margin-left: 25rem;
+    transition: 0.10s;
+
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 50px;
+
+}
+.article{
+    grid-area: article;
+    background-color: #1f2937;
+  
+}
+
+.main{
+    grid-area: main;
+    background-color: #e5e7eb;
+    margin-top: 50px;
+
+
+}
+.section{
+    grid-area: section;
+    background-color: #fff;
+} 
+.div{
+    grid-area: div;
+    background-color: #ffff;
+    text-align: start;
+    color: white
+
+}
+.footer{
+    grid-area: footer;
+    background-color: #1f2937;
+
+}
+.grid-container{
+    display: grid;
+    grid-template: 
+    "header header header" 100px
+    "article article article" 350px
+     "main main main" 350px
+     "section section section" 300px
+     "div div div" 250px
+    "footer footer footer" 60px / 1fr 1fr 1fr;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 350px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    gap: 30px;
+    background-color: #1f2937;
+    color: white;
+}
+.texbox{
+    margin-left: 70px;
+    margin-top: 100px;
+    margin-right: 100px;
+    height: 200px;
+    width: 50%;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 10px;
+    outline: none;  
+    border: none;
+    transition: .2s ease-in-out;
+}
+.btn{
+    
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(7, 155, 240);
+    margin-right: 30rem;
+    margin-top: 10px;
+
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: start;
+    text-transform: uppercase;
+
+
+}
+
+p{
+    font-size: 18px;
+    text-align: start;
+}
+.imgbox{
+    margin-top: 100px;
+    width: 500px; 
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+}
+img{
+    width: 500px; 
+    height: 200px;
+    object-fit: cover;
+}
+
+.container-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    flex-direction: row;
+}
+h2{
+    margin-bottom: 20px;
+    
+}
+.items{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(10, 163, 252);
+    border-radius: 20px;
+}
+.container-texts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: row;
+
+}
+.item{
+    color: black;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    height: 100px;
+}
+.container-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+    gap: 50px;
+}
+.autor{
+    margin-left: 35rem;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.accion{
+    margin: 50px auto;
+    background-color: #3882f6;
+    padding: 20px 80px;
+    height: 150px;
+    width: 60vw;
+    
+}
+.call-accion{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: start;
+}
+h3{
+    text-align: start;
+}
+.sign-up{
+    margin-right: 5rem;
+}
+
+.btn-sencondary{
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    background-color: #3882f6;
+    color: white;
+}
+.container-4{
+    padding: 25px 25px;
+    
+}
+.copyright{
+    margin-left: 45%;
+    color: white;
+}
+
